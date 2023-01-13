@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #083449;
+}
+#container {
+  position: relative;
+}
+
+#ball {
+  width: 20px;
+  height: 20px;
+  background-color: #00ffbe;
+  position: fixed;
+  border-radius: 50%;
+}
+
+#BluRaptor,
+#YellooRaptor {
+  width: 200px;
+  height: 20px;
+  position: fixed;
+  left: 50%;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+#BluRaptor {
+  background-color: #31b9ff;
+  color: #000;
+  top: 0px;
+}
+
+#YellooRaptor {
+  background-color: #cddc39;
+  color: #000;
+  bottom: 0px;
+}
